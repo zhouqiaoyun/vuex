@@ -1,0 +1,12 @@
+session:
+  prefix: x-token-aidoctor-official-
+web:
+  routes:
+  - path: /
+    protected: true
+    routeMode: local
+    localRoute:
+      path: /
+      index: index.html
+      cache:
+        option: no-cache
